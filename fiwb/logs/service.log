@@ -1934,3 +1934,200 @@ Caused by: org.openrdf.sail.SailLockedException: SAIL is already locked by: 1152
 2013-05-26 16:55:20,094 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global history repository...
 2013-05-26 16:55:20,094 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository was shut down already.
 2013-05-26 16:55:20,094 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down dynamic services
+2013-05-26 17:11:33,591 INFO [main] com.fluidops.iwb.IwbStart - Starting Information Workbench
+2013-05-26 17:11:33,602 INFO [main] com.fluidops.config.Config - loading config file config.prop
+2013-05-26 17:11:33,608 INFO [main] com.fluidops.util.i18n.I18n - Default locale: en_US
+2013-05-26 17:11:33,608 INFO [main] com.fluidops.util.i18n.I18n - Default character set: windows-1251
+2013-05-26 17:11:33,608 ERROR [main] com.fluidops.util.i18n.I18n - !!!!! Default character set is not UTF-8 !!!!!
+2013-05-26 17:11:33,609 ERROR [main] com.fluidops.util.i18n.I18n - !!!!! Make sure to set the following JVM parameter: file.encoding=UTF-8 !!!!!
+2013-05-26 17:11:33,663 INFO [main] com.fluidops.jetty.StartJetty - Loading Jetty configuration: C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\etc\jetty.xml
+2013-05-26 17:11:33,958 INFO [main] com.fluidops.config.Config - loading config file config.prop
+2013-05-26 17:11:33,958 INFO [main] com.fluidops.iwb.server.IwbServletContextListener - Starting up Information Workbench webapp context
+2013-05-26 17:11:33,982 INFO [main] com.fluidops.iwb.util.RepositoryFactory - Repository type set to native
+2013-05-26 17:11:34,596 INFO [main] install - Installing solution solution (version: n/a)
+2013-05-26 17:11:34,601 INFO [main] com.fluidops.iwb.api.DBBulkServiceImpl - Trying to load/update file 'solutions\DemoSolution\data\dbBootstrap\demoData.nt' into DB...
+2013-05-26 17:11:35,280 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
+2013-05-26 17:11:35,290 INFO [main] install - Installed Solution 'C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
+2013-05-26 17:11:35,291 INFO [main] com.fluidops.iwb.wiki.parserfunction.ParserFunctionsFactory - Registering and initializing custom bliki parser functions.
+2013-05-26 17:11:35,557 INFO [main] com.fluidops.network.RMIBase - RMI multi home support: " 88.201.228.240 2002:58c9:ee02:b:f1ee:5a47:12fa:e092 fec0:0:0:b:f1ee:5a47:12fa:e092%1 2002:58c9:ee02:b:9c70:c7e7:c807:ae83 192.168.86.1 192.168.134.1 "
+2013-05-26 17:11:35,713 INFO [main] com.fluidops.api.dynamic.DynamicServiceUtil - Initializing dynamic services
+2013-05-26 17:11:35,717 INFO [main] com.fluidops.servlet.XSSSafeHttpRequestFilter - Registered additional resources to exclude from automatic XSS protection: [/sparql, /search/]
+2013-05-26 17:11:35,780 INFO [main] com.fluidops.jetty.StartJetty - HTTPS URL: https://88.201.228.240:8443
+2013-05-26 17:11:35,780 INFO [main] com.fluidops.jetty.StartJetty - HTTP URL: http://88.201.228.240:8888
+2013-05-26 17:11:40,565 INFO [qtp2301493-17] com.fluidops.ajax.FSession - Created new FSession context= ID=a4fkaxvbrwk01c07ykv1xvgv7
+2013-05-26 17:23:36,797 INFO [main] com.fluidops.iwb.IwbStart - Exiting Information Workbench
+2013-05-26 17:23:36,802 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down IWB timers...
+2013-05-26 17:23:36,803 INFO [Thread-12] com.fluidops.iwb.TimerRegistry - Shutting down provider service timer
+2013-05-26 17:23:36,803 INFO [Thread-12] com.fluidops.iwb.TimerRegistry - Shutting down communication service timer
+2013-05-26 17:23:36,803 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down keyword search engine...
+2013-05-26 17:23:36,807 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global data manager...
+2013-05-26 17:23:36,813 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global repository...
+2013-05-26 17:23:36,815 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository shut down.
+2013-05-26 17:23:36,815 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global history repository...
+2013-05-26 17:23:36,816 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository was shut down already.
+2013-05-26 17:23:36,816 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down dynamic services
+2013-06-06 21:18:57,341 INFO [main] com.fluidops.iwb.IwbStart - Starting Information Workbench
+2013-06-06 21:18:57,354 INFO [main] com.fluidops.config.Config - loading config file config.prop
+2013-06-06 21:18:57,361 INFO [main] com.fluidops.util.i18n.I18n - Default locale: en_US
+2013-06-06 21:18:57,361 INFO [main] com.fluidops.util.i18n.I18n - Default character set: windows-1251
+2013-06-06 21:18:57,361 ERROR [main] com.fluidops.util.i18n.I18n - !!!!! Default character set is not UTF-8 !!!!!
+2013-06-06 21:18:57,362 ERROR [main] com.fluidops.util.i18n.I18n - !!!!! Make sure to set the following JVM parameter: file.encoding=UTF-8 !!!!!
+2013-06-06 21:18:57,421 INFO [main] com.fluidops.jetty.StartJetty - Loading Jetty configuration: C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\etc\jetty.xml
+2013-06-06 21:18:57,763 INFO [main] com.fluidops.config.Config - loading config file config.prop
+2013-06-06 21:18:57,764 INFO [main] com.fluidops.iwb.server.IwbServletContextListener - Starting up Information Workbench webapp context
+2013-06-06 21:18:57,789 INFO [main] com.fluidops.iwb.util.RepositoryFactory - Repository type set to native
+2013-06-06 21:18:58,840 INFO [main] install - Installing solution solution (version: n/a)
+2013-06-06 21:18:58,848 INFO [main] com.fluidops.iwb.api.DBBulkServiceImpl - Trying to load/update file 'solutions\DemoSolution\data\dbBootstrap\demoData.nt' into DB...
+2013-06-06 21:18:59,554 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Starting provider with ID urn:mondial
+2013-06-06 21:18:59,555 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Loading http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-europe.rdf
+2013-06-06 21:18:59,593 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
+2013-06-06 21:18:59,607 INFO [main] install - Installed Solution 'C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
+2013-06-06 21:18:59,609 INFO [main] com.fluidops.iwb.wiki.parserfunction.ParserFunctionsFactory - Registering and initializing custom bliki parser functions.
+2013-06-06 21:18:59,859 INFO [main] com.fluidops.network.RMIBase - RMI multi home support: " 88.201.228.240 2002:58c9:ee02:b:f1ee:5a47:12fa:e092 fec0:0:0:b:f1ee:5a47:12fa:e092%1 2002:58c9:ee02:b:3c66:87e8:8d19:d41a 192.168.86.1 192.168.134.1 "
+2013-06-06 21:19:00,011 INFO [main] com.fluidops.api.dynamic.DynamicServiceUtil - Initializing dynamic services
+2013-06-06 21:19:00,015 INFO [main] com.fluidops.servlet.XSSSafeHttpRequestFilter - Registered additional resources to exclude from automatic XSS protection: [/sparql, /search/]
+2013-06-06 21:19:00,101 INFO [main] com.fluidops.jetty.StartJetty - HTTPS URL: https://88.201.228.240:8443
+2013-06-06 21:19:00,101 INFO [main] com.fluidops.jetty.StartJetty - HTTP URL: http://88.201.228.240:8888
+2013-06-06 21:19:05,049 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Successfully loaded http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-europe.rdf with RDFFormat RDF/XML (mimeTypes=application/rdf+xml, application/xml; ext=rdf, rdfs, owl, xml)
+2013-06-06 21:19:10,632 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run of provider with ID urn:mondial finished
+2013-06-06 21:19:10,648 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run finished
+2013-06-06 21:19:10,648 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Starting provider with ID urn:mondialMeta
+2013-06-06 21:19:10,648 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Loading http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-meta.rdf
+2013-06-06 21:19:11,444 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Successfully loaded http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-meta.rdf with RDFFormat RDF/XML (mimeTypes=application/rdf+xml, application/xml; ext=rdf, rdfs, owl, xml)
+2013-06-06 21:19:11,728 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run of provider with ID urn:mondialMeta finished
+2013-06-06 21:19:11,734 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run finished
+2013-06-06 21:19:24,141 INFO [qtp2301493-18] com.fluidops.ajax.FSession - Created new FSession context= ID=1v9trxzir4k89eqnqh5rjfjfo
+2013-06-06 21:19:50,189 INFO [qtp2301493-34] com.fluidops.util.user.PwdSafe - Loaded passwd safe from secrets.xml
+2013-06-06 21:19:50,191 INFO [qtp2301493-34] com.fluidops.util.Authentication - authenticateWithPassword failed for user "iwb"
+2013-06-06 21:23:01,666 INFO [qtp2301493-34] com.fluidops.api.security.Authenticator - authenticateWithPassword successful for user "admin"
+2013-06-06 21:23:01,669 INFO [qtp2301493-34] com.fluidops.util.user.LoginSSO - SSO context stored. 1oqi81i1al2j77ptxy6mqi30k / 
+2013-06-06 22:13:28,460 INFO [main] com.fluidops.iwb.IwbStart - Exiting Information Workbench
+2013-06-06 22:13:28,466 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down IWB timers...
+2013-06-06 22:13:28,467 INFO [Thread-12] com.fluidops.iwb.TimerRegistry - Shutting down provider service timer
+2013-06-06 22:13:28,467 INFO [Thread-12] com.fluidops.iwb.TimerRegistry - Shutting down communication service timer
+2013-06-06 22:13:28,467 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down keyword search engine...
+2013-06-06 22:13:28,471 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global data manager...
+2013-06-06 22:13:28,477 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global repository...
+2013-06-06 22:13:28,481 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository shut down.
+2013-06-06 22:13:28,481 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global history repository...
+2013-06-06 22:13:28,481 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository was shut down already.
+2013-06-06 22:13:28,481 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down dynamic services
+2013-06-14 22:35:54,602 INFO [main] com.fluidops.iwb.IwbStart - Starting Information Workbench
+2013-06-14 22:35:54,640 INFO [main] com.fluidops.config.Config - loading config file config.prop
+2013-06-14 22:35:54,647 INFO [main] com.fluidops.util.i18n.I18n - Default locale: en_US
+2013-06-14 22:35:54,647 INFO [main] com.fluidops.util.i18n.I18n - Default character set: windows-1251
+2013-06-14 22:35:54,647 ERROR [main] com.fluidops.util.i18n.I18n - !!!!! Default character set is not UTF-8 !!!!!
+2013-06-14 22:35:54,650 ERROR [main] com.fluidops.util.i18n.I18n - !!!!! Make sure to set the following JVM parameter: file.encoding=UTF-8 !!!!!
+2013-06-14 22:35:54,730 INFO [main] com.fluidops.jetty.StartJetty - Loading Jetty configuration: C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\etc\jetty.xml
+2013-06-14 22:35:55,106 INFO [main] com.fluidops.config.Config - loading config file config.prop
+2013-06-14 22:35:55,107 INFO [main] com.fluidops.iwb.server.IwbServletContextListener - Starting up Information Workbench webapp context
+2013-06-14 22:35:55,261 INFO [main] com.fluidops.iwb.util.RepositoryFactory - Repository type set to native
+2013-06-14 22:35:56,864 INFO [main] install - Installing solution solution (version: n/a)
+2013-06-14 22:35:56,878 INFO [main] com.fluidops.iwb.api.DBBulkServiceImpl - Trying to load/update file 'solutions\DemoSolution\data\dbBootstrap\demoData.nt' into DB...
+2013-06-14 22:35:57,255 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Starting provider with ID urn:mondial
+2013-06-14 22:35:57,257 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Loading http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-europe.rdf
+2013-06-14 22:35:57,850 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
+2013-06-14 22:35:57,888 INFO [main] install - Installed Solution 'C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
+2013-06-14 22:35:57,893 INFO [main] com.fluidops.iwb.wiki.parserfunction.ParserFunctionsFactory - Registering and initializing custom bliki parser functions.
+2013-06-14 22:35:58,159 INFO [main] com.fluidops.network.RMIBase - RMI multi home support: " 88.201.228.240 2002:58c9:e12d:c:f1ee:5a47:12fa:e092 fec0:0:0:c:f1ee:5a47:12fa:e092%1 2002:58c9:e12d:c:4dc1:d1c:ac5a:447b 192.168.86.1 192.168.134.1 "
+2013-06-14 22:35:58,350 INFO [main] com.fluidops.api.dynamic.DynamicServiceUtil - Initializing dynamic services
+2013-06-14 22:35:58,358 INFO [main] com.fluidops.servlet.XSSSafeHttpRequestFilter - Registered additional resources to exclude from automatic XSS protection: [/sparql, /search/]
+2013-06-14 22:35:58,857 INFO [main] com.fluidops.jetty.StartJetty - HTTPS URL: https://88.201.228.240:8443
+2013-06-14 22:35:58,857 INFO [main] com.fluidops.jetty.StartJetty - HTTP URL: http://88.201.228.240:8888
+2013-06-14 22:36:00,006 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Successfully loaded http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-europe.rdf with RDFFormat RDF/XML (mimeTypes=application/rdf+xml, application/xml; ext=rdf, rdfs, owl, xml)
+2013-06-14 22:36:03,760 INFO [qtp26151697-20] com.fluidops.ajax.FSession - Created new FSession context= ID=d9r7nuz7a29ga5bdjalevtu8
+2013-06-14 22:36:06,558 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run of provider with ID urn:mondial finished
+2013-06-14 22:36:06,580 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run finished
+2013-06-14 22:36:06,580 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Starting provider with ID urn:mondialMeta
+2013-06-14 22:36:06,580 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Loading http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-meta.rdf
+2013-06-14 22:36:06,987 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Successfully loaded http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-meta.rdf with RDFFormat RDF/XML (mimeTypes=application/rdf+xml, application/xml; ext=rdf, rdfs, owl, xml)
+2013-06-14 22:36:07,203 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run of provider with ID urn:mondialMeta finished
+2013-06-14 22:36:07,209 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run finished
+2013-06-14 22:36:17,732 INFO [qtp26151697-38] com.fluidops.util.user.PwdSafe - Loaded passwd safe from secrets.xml
+2013-06-14 22:36:17,735 INFO [qtp26151697-38] com.fluidops.api.security.Authenticator - authenticateWithPassword successful for user "admin"
+2013-06-14 22:36:17,736 INFO [qtp26151697-38] com.fluidops.util.user.LoginSSO - SSO context stored. 19bbf2fzwrxab93hu8ht0ql49 / 
+2013-06-14 23:35:30,489 INFO [main] com.fluidops.iwb.IwbStart - Exiting Information Workbench
+2013-06-14 23:35:30,501 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down IWB timers...
+2013-06-14 23:35:30,501 INFO [Thread-12] com.fluidops.iwb.TimerRegistry - Shutting down provider service timer
+2013-06-14 23:35:30,502 INFO [Thread-12] com.fluidops.iwb.TimerRegistry - Shutting down communication service timer
+2013-06-14 23:35:30,502 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down keyword search engine...
+2013-06-14 23:35:30,509 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global data manager...
+2013-06-14 23:35:30,527 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global repository...
+2013-06-14 23:35:30,531 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository shut down.
+2013-06-14 23:35:30,532 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global history repository...
+2013-06-14 23:35:30,532 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository was shut down already.
+2013-06-14 23:35:30,532 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down dynamic services
+2013-06-17 15:29:08,454 INFO [main] com.fluidops.iwb.IwbStart - Starting Information Workbench
+2013-06-17 15:29:08,466 INFO [main] com.fluidops.config.Config - loading config file config.prop
+2013-06-17 15:29:08,472 INFO [main] com.fluidops.util.i18n.I18n - Default locale: en_US
+2013-06-17 15:29:08,472 INFO [main] com.fluidops.util.i18n.I18n - Default character set: windows-1251
+2013-06-17 15:29:08,473 ERROR [main] com.fluidops.util.i18n.I18n - !!!!! Default character set is not UTF-8 !!!!!
+2013-06-17 15:29:08,473 ERROR [main] com.fluidops.util.i18n.I18n - !!!!! Make sure to set the following JVM parameter: file.encoding=UTF-8 !!!!!
+2013-06-17 15:29:08,538 INFO [main] com.fluidops.jetty.StartJetty - Loading Jetty configuration: C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\etc\jetty.xml
+2013-06-17 15:29:08,861 INFO [main] com.fluidops.config.Config - loading config file config.prop
+2013-06-17 15:29:08,861 INFO [main] com.fluidops.iwb.server.IwbServletContextListener - Starting up Information Workbench webapp context
+2013-06-17 15:29:08,886 INFO [main] com.fluidops.iwb.util.RepositoryFactory - Repository type set to native
+2013-06-17 15:29:09,562 INFO [main] install - Installing solution solution (version: n/a)
+2013-06-17 15:29:09,567 INFO [main] com.fluidops.iwb.api.DBBulkServiceImpl - Trying to load/update file 'solutions\DemoSolution\data\dbBootstrap\demoData.nt' into DB...
+2013-06-17 15:29:10,297 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Starting provider with ID urn:mondial
+2013-06-17 15:29:10,298 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Loading http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-europe.rdf
+2013-06-17 15:29:10,306 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
+2013-06-17 15:29:10,318 INFO [main] install - Installed Solution 'C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
+2013-06-17 15:29:10,319 INFO [main] com.fluidops.iwb.wiki.parserfunction.ParserFunctionsFactory - Registering and initializing custom bliki parser functions.
+2013-06-17 15:29:10,564 INFO [main] com.fluidops.network.RMIBase - RMI multi home support: " 88.201.228.240 2002:58c9:e12d:c:f1ee:5a47:12fa:e092 fec0:0:0:c:f1ee:5a47:12fa:e092%1 2002:58c9:e12d:c:195:e031:d471:5887 192.168.86.1 192.168.134.1 "
+2013-06-17 15:29:10,723 INFO [main] com.fluidops.api.dynamic.DynamicServiceUtil - Initializing dynamic services
+2013-06-17 15:29:10,727 INFO [main] com.fluidops.servlet.XSSSafeHttpRequestFilter - Registered additional resources to exclude from automatic XSS protection: [/sparql, /search/]
+2013-06-17 15:29:10,803 INFO [main] com.fluidops.jetty.StartJetty - HTTPS URL: https://88.201.228.240:8443
+2013-06-17 15:29:10,804 INFO [main] com.fluidops.jetty.StartJetty - HTTP URL: http://88.201.228.240:8888
+2013-06-17 15:29:13,299 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Successfully loaded http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-europe.rdf with RDFFormat RDF/XML (mimeTypes=application/rdf+xml, application/xml; ext=rdf, rdfs, owl, xml)
+2013-06-17 15:29:14,770 INFO [qtp2301493-33] com.fluidops.ajax.FSession - Created new FSession context= ID=i4x5uor44rsp10b4t22y7q9b4
+2013-06-17 15:29:19,325 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run of provider with ID urn:mondial finished
+2013-06-17 15:29:19,337 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run finished
+2013-06-17 15:29:19,338 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Starting provider with ID urn:mondialMeta
+2013-06-17 15:29:19,338 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Loading http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-meta.rdf
+2013-06-17 15:29:19,751 INFO [IWB Provider Update] com.fluidops.iwb.provider.RDFProvider - Successfully loaded http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial-meta.rdf with RDFFormat RDF/XML (mimeTypes=application/rdf+xml, application/xml; ext=rdf, rdfs, owl, xml)
+2013-06-17 15:29:19,960 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run of provider with ID urn:mondialMeta finished
+2013-06-17 15:29:19,966 INFO [IWB Provider Update] com.fluidops.iwb.api.ProviderServiceImpl - Provider run finished
+2013-06-17 15:29:55,980 INFO [main] com.fluidops.iwb.IwbStart - Exiting Information Workbench
+2013-06-17 15:29:55,988 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down IWB timers...
+2013-06-17 15:29:55,988 INFO [Thread-12] com.fluidops.iwb.TimerRegistry - Shutting down provider service timer
+2013-06-17 15:29:55,988 INFO [Thread-12] com.fluidops.iwb.TimerRegistry - Shutting down communication service timer
+2013-06-17 15:29:55,989 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down keyword search engine...
+2013-06-17 15:29:55,991 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global data manager...
+2013-06-17 15:29:55,995 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global repository...
+2013-06-17 15:29:55,998 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository shut down.
+2013-06-17 15:29:55,998 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global history repository...
+2013-06-17 15:29:55,999 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository was shut down already.
+2013-06-17 15:29:55,999 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down dynamic services
+2013-06-17 18:31:26,427 INFO [main] com.fluidops.iwb.IwbStart - Starting Information Workbench
+2013-06-17 18:31:26,451 INFO [main] com.fluidops.config.Config - loading config file config.prop
+2013-06-17 18:31:26,457 INFO [main] com.fluidops.util.i18n.I18n - Default locale: en_US
+2013-06-17 18:31:26,457 INFO [main] com.fluidops.util.i18n.I18n - Default character set: windows-1251
+2013-06-17 18:31:26,457 ERROR [main] com.fluidops.util.i18n.I18n - !!!!! Default character set is not UTF-8 !!!!!
+2013-06-17 18:31:26,458 ERROR [main] com.fluidops.util.i18n.I18n - !!!!! Make sure to set the following JVM parameter: file.encoding=UTF-8 !!!!!
+2013-06-17 18:31:26,518 INFO [main] com.fluidops.jetty.StartJetty - Loading Jetty configuration: C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\etc\jetty.xml
+2013-06-17 18:31:26,857 INFO [main] com.fluidops.config.Config - loading config file config.prop
+2013-06-17 18:31:26,858 INFO [main] com.fluidops.iwb.server.IwbServletContextListener - Starting up Information Workbench webapp context
+2013-06-17 18:31:26,987 INFO [main] com.fluidops.iwb.util.RepositoryFactory - Repository type set to native
+2013-06-17 18:31:28,033 INFO [main] install - Installing solution solution (version: n/a)
+2013-06-17 18:31:28,044 INFO [main] com.fluidops.iwb.api.DBBulkServiceImpl - Trying to load/update file 'solutions\DemoSolution\data\dbBootstrap\demoData.nt' into DB...
+2013-06-17 18:31:28,873 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
+2013-06-17 18:31:28,897 INFO [main] install - Installed Solution 'C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
+2013-06-17 18:31:28,900 INFO [main] com.fluidops.iwb.wiki.parserfunction.ParserFunctionsFactory - Registering and initializing custom bliki parser functions.
+2013-06-17 18:31:29,138 INFO [main] com.fluidops.network.RMIBase - RMI multi home support: " 88.201.228.240 2002:58c9:e12d:c:f1ee:5a47:12fa:e092 fec0:0:0:c:f1ee:5a47:12fa:e092%1 2002:58c9:e12d:c:195:e031:d471:5887 192.168.86.1 192.168.134.1 "
+2013-06-17 18:31:29,295 INFO [main] com.fluidops.api.dynamic.DynamicServiceUtil - Initializing dynamic services
+2013-06-17 18:31:29,302 INFO [main] com.fluidops.servlet.XSSSafeHttpRequestFilter - Registered additional resources to exclude from automatic XSS protection: [/sparql, /search/]
+2013-06-17 18:31:29,400 INFO [main] com.fluidops.jetty.StartJetty - HTTPS URL: https://88.201.228.240:8443
+2013-06-17 18:31:29,400 INFO [main] com.fluidops.jetty.StartJetty - HTTP URL: http://88.201.228.240:8888
+2013-06-17 18:31:35,317 INFO [qtp2301493-33] com.fluidops.ajax.FSession - Created new FSession context= ID=1ct3mqrfc39kq1v3o3o4w2tjiz
+2013-06-17 18:33:33,839 INFO [main] com.fluidops.iwb.IwbStart - Exiting Information Workbench
+2013-06-17 18:33:33,844 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down IWB timers...
+2013-06-17 18:33:33,845 INFO [Thread-12] com.fluidops.iwb.TimerRegistry - Shutting down provider service timer
+2013-06-17 18:33:33,845 INFO [Thread-12] com.fluidops.iwb.TimerRegistry - Shutting down communication service timer
+2013-06-17 18:33:33,845 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down keyword search engine...
+2013-06-17 18:33:33,851 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global data manager...
+2013-06-17 18:33:33,879 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global repository...
+2013-06-17 18:33:33,882 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository shut down.
+2013-06-17 18:33:33,882 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down global history repository...
+2013-06-17 18:33:33,882 INFO [Thread-12] com.fluidops.iwb.IwbStart - -> repository was shut down already.
+2013-06-17 18:33:33,882 INFO [Thread-12] com.fluidops.iwb.IwbStart - Shutting down dynamic services

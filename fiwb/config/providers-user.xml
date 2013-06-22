@@ -5,8 +5,8 @@
       <streaming>false</streaming>
     </config>
     <pollInterval>86400000</pollInterval>
-    <lastUpdate>2013-05-26 14:37:51.27 MSK</lastUpdate>
-    <lastDuration>9355</lastDuration>
+    <lastUpdate>2013-06-17 15:29:19.325 MSK</lastUpdate>
+    <lastDuration>9027</lastDuration>
     <providerID class="org.openrdf.model.impl.URIImpl">
       <uriString>urn:mondial</uriString>
       <localNameIdx>4</localNameIdx>
@@ -22,8 +22,8 @@
       <streaming>false</streaming>
     </config>
     <pollInterval>86400000</pollInterval>
-    <lastUpdate>2013-05-26 14:37:51.758 MSK</lastUpdate>
-    <lastDuration>707</lastDuration>
+    <lastUpdate>2013-06-17 15:29:19.960 MSK</lastUpdate>
+    <lastDuration>622</lastDuration>
     <providerID class="org.openrdf.model.impl.URIImpl">
       <uriString>urn:mondialMeta</uriString>
       <localNameIdx>4</localNameIdx>

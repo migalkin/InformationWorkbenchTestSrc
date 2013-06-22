@@ -7,3 +7,18 @@
 2013-05-26 14:46:55,724 INFO [main] install - Installing solution solution (version: n/a)
 2013-05-26 14:46:56,477 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
 2013-05-26 14:46:56,489 INFO [main] install - Installed Solution 'C:\Eclipse Juno\workspace\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
+2013-05-26 17:11:34,596 INFO [main] install - Installing solution solution (version: n/a)
+2013-05-26 17:11:35,280 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
+2013-05-26 17:11:35,290 INFO [main] install - Installed Solution 'C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
+2013-06-06 21:18:58,840 INFO [main] install - Installing solution solution (version: n/a)
+2013-06-06 21:18:59,593 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
+2013-06-06 21:18:59,607 INFO [main] install - Installed Solution 'C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
+2013-06-14 22:35:56,864 INFO [main] install - Installing solution solution (version: n/a)
+2013-06-14 22:35:57,850 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
+2013-06-14 22:35:57,888 INFO [main] install - Installed Solution 'C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
+2013-06-17 15:29:09,562 INFO [main] install - Installing solution solution (version: n/a)
+2013-06-17 15:29:10,306 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
+2013-06-17 15:29:10,318 INFO [main] install - Installed Solution 'C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
+2013-06-17 18:31:28,033 INFO [main] install - Installing solution solution (version: n/a)
+2013-06-17 18:31:28,873 INFO [main] install.wiki - bootstrap all wiki pages from folder: solutions\DemoSolution\data\wikiBootstrap
+2013-06-17 18:31:28,897 INFO [main] install - Installed Solution 'C:\Users\comp\Documents\GitHub\InformationWorkbenchTestSrc\fiwb\.\apps\solution.ref', result: Status: INSTALLED_SUCCESSFULLY
